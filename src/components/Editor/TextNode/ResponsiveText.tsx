@@ -41,6 +41,8 @@ const ResponsiveText: React.FC<ResponsiveTextProps> = ({
     return () => {
       window.removeEventListener("resize", adjustFontSize);
     };
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text, fontSize]);
 
   return (
