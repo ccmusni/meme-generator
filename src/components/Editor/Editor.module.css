@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: calc(100% - 75px);
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-top: 100px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  position: relative;
+  box-shadow: 1px 1px 5px 2px rgba(146, 147, 201, 0.25);
+  object-fit: contain;
+  max-width: 500px;
+  user-select: none;
+}
+
+@media screen and (max-width: 810px) {
+  .content {
+    margin-left: 40px;
+  }
+}

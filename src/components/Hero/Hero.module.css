@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 50px 200px 50px;
+  background-color: #c3cfe8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 66px;
+  line-height: 65px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #904748;
+}
+
+.description {
+  margin: 24px 0;
+}
+
+.searchInfo {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.popularMemesInfo {
+  font-size: 16px;
+  text-align: center;
+  color: #904748;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1450px) {
+  .container {
+    padding: 100px 100px 150px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .container {
+    padding: 50px 40px 100px;
+  }
+
+  .popularMemesInfo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .container {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
